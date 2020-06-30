@@ -18,7 +18,8 @@ package al.dp.fibo;
 public class fiboDP {
 
 	public static int fiboDP(int x) {
-		int[] d=new int[x+1];
+		
+		int[] d=new int[x+1];//Memoization 할 변수
 				
 		d[0]=1;
 		d[1]=1;
